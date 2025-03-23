@@ -1,0 +1,50 @@
+# Bin and obj folders (build outputs)
+bin/
+obj/
+
+# User-specific files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Build artifacts
+project.lock.json
+project.assets.json
+project.fragment.lock.json
+project.nuget.cache
+artifacts/
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Visual Studio Code settings
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
